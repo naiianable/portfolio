@@ -11,6 +11,11 @@ module.exports = {
 				sans: ["VT323", "monospace"],
 			},
 		},
+		colors: {
+			mario: {
+				mainRed: "#ff0000",
+			},
+		},
 	},
 	plugins: [require("tailwindcss"), require("postcss-preset-env")],
 };
